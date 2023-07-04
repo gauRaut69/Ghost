@@ -1,0 +1,7 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - name: Build and launch Docker containers
+    init: |
+      ls
